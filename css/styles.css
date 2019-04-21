@@ -150,3 +150,15 @@ nav>ul>li>a{
   top: 0;
   width: 100%;
 }
+.box{
+  display:flex;
+  justify-content: space-around;
+}
+.box div{
+  max-width: 100%;
+  margin: 30px;
+}
+.box div img{
+  width :400px;
+  height :400px;
+}
