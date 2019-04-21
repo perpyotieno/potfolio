@@ -1,0 +1,14 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin:0;
+  padding: 0;
+  transition: 0.7s ease-in-out;
+}
+body{
+  background-color: #E7E5DF;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
