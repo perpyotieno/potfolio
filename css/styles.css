@@ -261,3 +261,21 @@ button{
 #contact{
   margin: 20px;
 }
+.pop{
+  margin-top: -295px;
+  height: 50%;
+  width:95%;
+  background-color: #A6D9F7;
+  position: relative;
+  font-size: 0.2em;
+  opacity: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.projects{
+  background-color: ;
+  min-height: 350px;
+}
+.projects:hover .pop{
+  opacity: 1;
+}
