@@ -248,3 +248,16 @@ button{
   color: #A9ACA9;
   font-size: 2em;
 }
+.image{
+  text-align: center;
+}
+.image h1{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#contact h2{
+  margin-bottom: 20px;
+}
+#contact{
+  margin: 20px;
+}
