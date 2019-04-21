@@ -290,7 +290,6 @@ button{
   font-weight: 900;
   animation: 0.2s change infinite;
 }
-
 @keyframes change {
   0%{
     margin-top: -90px;
@@ -299,4 +298,24 @@ button{
     margin-bottom: -110px;
     text-shadow: 0 0 10px black;
   }
+}
+@media screen and (max-width:1045px){
+  .box{
+    flex-wrap: wrap;
+  }
+  .about{
+    min-width: 90%;
+  }
+}
+@media screen and (max-width:730px){
+  .projects{
+    width: 90%;
+  }
+}
+@media screen and (max-width:472px){
+nav>ul>li{
+  display: inline;
+  padding: 5px;
+  text-transform:capitalize;
+}
 }
