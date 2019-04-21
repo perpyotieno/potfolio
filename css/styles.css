@@ -162,3 +162,9 @@ nav>ul>li>a{
   width :400px;
   height :400px;
 }
+.about{
+  text-align: center;
+  margin: 30px;
+  padding-left:40px;
+  font-family: 'Open Sans', sans-serif;
+}
