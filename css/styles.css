@@ -168,3 +168,23 @@ nav>ul>li>a{
   padding-left:40px;
   font-family: 'Open Sans', sans-serif;
 }
+.projects-box{
+  text-align: center;
+}
+.square{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.projects{
+  width:30%;
+  font-size: 8em;
+}
+.projects i{
+  margin-bottom: -100px;
+  color: #A9ACA9;
+}
+.square div p{
+  font-size: 0.8em;
+}
