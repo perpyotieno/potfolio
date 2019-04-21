@@ -232,3 +232,19 @@ button{
   cursor: pointer;
   border: 0;
 }
+.try{
+  margin-bottom: 20px;
+  margin-top: 300px;
+  text-align: center;
+}
+.try p{
+  margin-bottom: 20px;
+}
+.contacts div{
+  display: inline-block;
+  padding: 5px;
+}
+.contacts i{
+  color: #A9ACA9;
+  font-size: 2em;
+}
