@@ -32,3 +32,88 @@ span{
   float:left;
   width:25%;
 }
+.navigation{
+  clear:left;
+}
+.slides{
+  overflow: hidden;
+  height: 650px;
+  max-height: 100%;
+}
+.slides figure div{
+  width:20%;
+  float: left;
+}
+.slides figure img{
+  width:100%;
+  float: left;
+  height: 650px;
+  max-height:100%;
+}
+.test{
+  height: 650px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+}
+.slides figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slidy infinite;
+}
+
+@keyframes slidy {
+  0%{
+    left:0%;
+  }
+  10%{
+    left: 0%;
+  }
+  12%{
+    left:-100%;
+  }
+  22%{
+    left: -100%;
+  }
+  24%{
+    left: -200%;
+  }
+  34%{
+    left: -200%;
+  }
+  36%{
+    left: -300%;
+  }
+  46%{
+    left: -300%;
+  }
+  48%{
+    left: -400%;
+  }
+  58%{
+    left:-400%;
+  }
+  60%{
+    left: -300%;
+  }
+  70%{
+    left:-300%;
+  }
+  72%{
+    left: -200%;
+  }
+  82%{
+    left: -200%;
+  }
+  84%{
+    left:-100%;
+  }
+  94%{
+    left: -100%;
+  }
+  96%{
+    left:0%;
+  }
+}
