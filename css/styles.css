@@ -188,3 +188,20 @@ nav>ul>li>a{
 .square div p{
   font-size: 0.8em;
 }
+button{
+  padding-top: 0;
+  padding: 10px;
+  background-color: #A9ACA9;
+}
+.reachout button{
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 30px;
+  border: 3px solid #EB6534;
+  background-color: #A6D9F7;
+}
