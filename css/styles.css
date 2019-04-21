@@ -279,3 +279,24 @@ button{
 .projects:hover .pop{
   opacity: 1;
 }
+.arrow{
+  position: absolute;
+  margin-top: -100px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50);
+  color: White;
+  font-size: 3em;
+  font-weight: 900;
+  animation: 0.2s change infinite;
+}
+
+@keyframes change {
+  0%{
+    margin-top: -90px;
+  }
+  50%{
+    margin-bottom: -110px;
+    text-shadow: 0 0 10px black;
+  }
+}
