@@ -19,7 +19,7 @@ p{
   width:20%;
   padding:100px;
   font-family: 'Acme', sans-serif;
-  color: white;
+  color: black;
   font-size: 5em;
   padding-top: 200px;
   padding-left: 15px;
@@ -369,7 +369,7 @@ button{
   text-align: center;
   left: 50%;
   transform: translate(-50);
-  color: White;
+  color: black;
   font-size: 3em;
   font-weight: 900;
   animation: 0.2s change infinite;
